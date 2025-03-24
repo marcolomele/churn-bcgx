@@ -190,6 +190,11 @@ git commit -m "Resolve conflicts"
 git push
 ```
 
+### If you added a file to track and want to undo git add
+```bash
+git reset file_name.file_type
+```
+
 ### If you forgot to pull before working:
 
 ```bash
