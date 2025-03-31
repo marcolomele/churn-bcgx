@@ -40,11 +40,9 @@ We'll keep things simple by working on the main branch and using folders to orga
 
 Folders:
 - `/main` - Contains final versions of files
-- `/giova` - Giova's working folder
-- `/ilia` - Ilia's working folder
-- `/javi` - Javi's working folder
-- `/marco` - Marco's working folder
-- `/santi` - Santi's working folder
+- `/inference` - Working folder related to the inference part
+- `/prediction` - Working folder related to the prediction part
+
 
 Other files:
 - .gitinore – tells GitHub which files to ignore and not upload. To ignore a file in you folder, in a new line write `{your_folder}/{file_name.file_type}`
@@ -52,7 +50,7 @@ Other files:
 
 ### Working in Your Folder and Moving to Main
 
-1. Always edit files in your own named folder (e.g., `/javi`, `/santi`, etc.). Organise your folder as you prefer, making sure to keep track of what is the final version of things. 
+1. Always edit files in your own folder. Organise your folder as you prefer, making sure to keep track of what is the final version of things. 
 2. When a file is in its final version and ready to be moved to main:
    
    ```bash
@@ -93,7 +91,7 @@ Using `--rebase` helps avoid merge conflicts by placing your changes on top of t
 
 ### 2. Creating Your Work
 
-We're organizing work by folders instead of branches. If more people are working on the same file, copy and paste the file in your own folder.  
+We're organizing work by folders instead of branches. 
 
 ### 3. Making Changes
 
