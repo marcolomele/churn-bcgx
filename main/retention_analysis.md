@@ -52,7 +52,7 @@ special treatment for complaints
 Improve fundamentally business, both commercial side and organisational side.
 
 ### support – simple
-Augmented Data Collection - 
+Augmented Data Collection - better diagnosis and modelling
 Marketing to grow user base, link to leaky bucket analogy to increase water inflow.
 
 ### revolutinos – complex
