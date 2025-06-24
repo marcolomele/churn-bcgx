@@ -50,8 +50,8 @@ churn_bcgx/
 ## Results
 
 - Identified multiple churn drivers that align with business intuition. The final model achieved strong performance in predicting customer churn.
-- See [Churn Modelling Presentation.pdf](Churn Modelling Presentation.pdf) for an overview of our methods and the results.
-- See [Churn Modelling Report.pdf](Churn Modelling Report.pdf) for an in-depth explanation of our methods and the results.
+- See [Churn Modelling Presentation.pdf](Churn-Modelling-Presentation.pdf) for an overview of our methods and the results.
+- See [Churn Modelling Report.pdf](Churn-Modelling-Report.pdf) for an in-depth explanation of our methods and the results.
 
 ## Contributors
 
