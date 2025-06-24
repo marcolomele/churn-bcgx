@@ -2,11 +2,6 @@
 
 This repository contains the solution developed for a Data Science competition judged by BCG X. The objective was to isolate key drivers of churn and build a predictive model to identify customers at risk of churn.
 
-<figure>
-  <img src="cdfw_matrix.png" alt="Image description">
-  <figcaption>Intervention strategy matrix proposed in our solution. More information in the report.</figcaption>
-</figure>
-
 ## Repository Structure
 ```
 churn_bcgx/
@@ -55,8 +50,8 @@ churn_bcgx/
 ## Results
 
 - Identified multiple churn drivers that align with business intuition. The final model achieved strong performance in predicting customer churn.
-- See [Churn Modelling Presentation.pdf](Churn-Modelling-Presentation.pdf) for an overview of our methods and the results.
-- See [Churn Modelling Report.pdf](Churn-Modelling-Report.pdf) for an in-depth explanation of our methods and the results.
+- See [Churn Modelling Presentation.pdf](churn-modelling-presentation.pdf) for an overview of our methods and the results.
+- See [Churn Modelling Report.pdf](churn-modelling-report.pdf) for an in-depth explanation of our methods and the results.
 
 ## Contributors
 
