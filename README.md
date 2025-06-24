@@ -2,6 +2,11 @@
 
 This repository contains the solution developed for a Data Science competition judged by BCG X. The objective was to isolate key drivers of churn and build a predictive model to identify customers at risk of churn.
 
+<figure>
+  <img src="cdfw_matrix.png" alt="Image description">
+  <figcaption>Intervention strategy matrix proposed in our solution. More information in the report.</figcaption>
+</figure>
+
 ## Repository Structure
 ```
 churn_bcgx/
