@@ -1,23 +1,6 @@
 # Churn Prediction – BCG X Data Science Competition
 
-This repository contains the solution developed for a Data Science competition judged by BCG X. The objective was to build a predictive model to identify customers at risk of churn, leveraging advanced machine learning techniques and a robust data pipeline.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Data](#data)
-- [Modeling](#modeling)
-- [Inference](#inference)
-- [Supplementary Materials](#supplementary-materials)
-- [Results](#results)
-- [Contributors](#contributors)
-- [License](#license)
-
-## Project Overview
-
-The goal of this project was to develop a machine learning model to predict customer churn. The solution includes data preprocessing, feature engineering, model training, evaluation, and inference scripts. The project was completed as part of a competition and is no longer actively developed.
+This repository contains the solution developed for a Data Science competition judged by BCG X. The objective was to isolate key drivers of churn and build a predictive model to identify customers at risk of churn.
 
 ## Repository Structure
 ```
@@ -44,32 +27,31 @@ churn_bcgx/
    git clone https://github.com/marcolomele/churn_bcgx.git
    cd churn_bcgx
    ```
-2. (Optional) Set up a virtual environment and install dependencies as required by your workflow.
+2. Set up a virtual environment and install dependencies using `requirements.txt`.
 
 3. Explore the `main/` directory for entry-point scripts to reproduce results or run the pipeline.
 
 ## Data
 
 - The `data/` directory contains all datasets used in the project.
-- Raw data is stored separately from processed data to ensure reproducibility.
 
 ## Modeling
 
 - All model development, training, and evaluation scripts are located in the `modelling/` directory.
-- The code is modular to allow for easy experimentation with different algorithms and features.
 
 ## Inference
 
-- The `inference/` directory contains scripts to apply the trained model to new data and generate predictions.
+- The `inference/` directory contains notebooks on inferring churn drivers via data analysis.
 
 ## Supplementary Materials
 
-- Additional documentation, figures, or resources can be found in the `supplementary/` directory.
+- Additional work using Small Language Model to generate emotional involvement of customers is in the `supplementary/` directory.
 
 ## Results
 
-- The final model achieved strong performance in predicting customer churn, as evaluated by the competition metrics.
-- For more details, refer to the documentation in the `supplementary/` folder.
+- Identified multiple churn drivers that align with business intuition. The final model achieved strong performance in predicting customer churn.
+- See [Churn Modelling Presentation.pdf](Churn Modelling Presentation.pdf) for an overview of our methods and the results.
+- See [Churn Modelling Report.pdf](Churn Modelling Report.pdf) for an in-depth explanation of our methods and the results.
 
 ## Contributors
 
